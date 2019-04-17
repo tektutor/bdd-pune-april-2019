@@ -5,7 +5,7 @@ public class Hello {
     private String message;
 
     public Hello() { 
-	message = "Hello REST API!";
+	    message = "Hello REST API!";
     }
 
     public Hello( String message ) {
