@@ -99,9 +99,8 @@
 			    <artifactId>tomcat7-maven-plugin</artifactId>
 			    <version>2.2</version>
 			    <configuration>
-				<id>tomcat</id>
 				<url>http://localhost:8080/manager/text</url>
-				<server>localhost</server>
+				<server>tomcat</server>
 			    </configuration>
 			</plugin>
 			<plugin>
